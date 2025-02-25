@@ -12,11 +12,12 @@
 </head>
 
 <body>
-    <div id="fixed-image">
-
-    </div>
+    <div id="fixed-image"></div>
+ 
     <div id="main">
+        
         <div id="page-1">
+        
             <nav>
                 <img src="https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg" alt="">
                 <div id="nav-part2">
@@ -24,7 +25,13 @@
                     <h4><a href="">Studio</a></h4>
                     <h4><a href="">Contact</a></h4>
                 </div>
-                <h3>Menu</h3>
+                    <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                        <svg width="25" height="25" viewBox="0 0 100 100">
+                          <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                          <path class="line line2" d="M 20,50 H 80" />
+                          <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                        </svg><p>Menu</p>
+                      </button>
             </nav>
             <div id="center">
                 <div id="left">
@@ -122,20 +129,29 @@
             <!-- Swiper -->
           <div class="swiper mySwiper">
               <div class="swiper-wrapper">
-               <div class="swiper-slide">Slide 1</div>
-               <div class="swiper-slide">Slide 2</div>
-               <div class="swiper-slide">Slide 3</div>
-               <div class="swiper-slide">Slide 4</div>
-               <div class="swiper-slide">Slide 5</div>
-               <div class="swiper-slide">Slide 6</div>
-               <div class="swiper-slide">Slide 7</div>
-               <div class="swiper-slide">Slide 8</div>
-               <div class="swiper-slide">Slide 9</div>
+               <div class="swiper-slide">Moeed Hassan</div>
+               <div class="swiper-slide">Saad Ali</div>
+               <div class="swiper-slide">Alia Tahir</div>
+               <div class="swiper-slide">Kulsoom</div>
+               <div class="swiper-slide">Raheel</div>
+               <div class="swiper-slide">Kanwer</div>
+               <div class="swiper-slide">Abdull</div>
+               <div class="swiper-slide">Danish</div>
+               <div class="swiper-slide">Sajid</div>
             </div>
         </div>
           </div>
           <div id="page-5"></div>
+          <div id="menu-anim">
+            <div id="nav-part-anim">
+            <h4><a href="">Work</a></h4>
+            <h4><a href="">Studio</a></h4>
+            <h4><a href="">Contact</a></h4>
+            </div>
+        </div>
+          
     </div>
+    
     <div id="footer">
         <div id="footer-header"></div>
         <h1>Sunday</h1>
