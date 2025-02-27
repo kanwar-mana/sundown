@@ -537,7 +537,7 @@ nav{
         color: white;
     }
      #center{
-        height: 62vh;
+        height: 35vh;
         width: 100%;
         /* background-color: orange; */
         display: flex;
@@ -547,6 +547,7 @@ nav{
         flex-direction: column-reverse;
         position: relative;
         z-index: 9;
+        top: 3vw;
     }
     #left{
         width: 100%;
@@ -556,8 +557,21 @@ nav{
     #left h3{
         width: 100%;
         padding-top: 3vw;
-        font-size: 5.5vw;
-        line-height: 6vw;
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    #page-1 video{
+        position: relative;
+        width: 100%;
+        border-radius: 20px;
+    }
+    #hero-shape{
+        position: absolute;
+        height: 36vw;
+        width: 46vw;
+    
+        right: 0;
+        top: 35vh;
     }
     /*#left h3{
         width: 100%;
@@ -570,4 +584,62 @@ nav{
         line-height: 15vw;
     } */
 
+    #gola{
+        height: 30px;
+        width: 30px;
+    }
+    #page2-bottom{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+    #page2-bottom h1{
+        display: flex;
+        text-align: left;
+        width: 100%;
+        /* color: orangered; */
+    }
+    #bottom-part2{
+        width: 70%;
+        font-size: 2vw;
+        margin-left: 20vw;
+    }
+    #bottom-part2 img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    #bottom-part2 p{
+        margin: 2vw 0vw;
+        font-weight: 200;
+        font-size: 3vw;
+    }
+    #page-2 #gooey{
+        width: 50vw;
+        height: 50vw;
+        top: 40%;
+        left: 5%;
+    }
+    .element{
+        height: 70px;
+    }
+    .element h2{
+        font-size: 5vw;
+        color: rgb(0, 0, 0)
+    }
+    #fixed-image{
+        height: 40vw;
+        width: 35vw;
+    }
+    #page-4{
+        height: 50vh;
+    }
+    .swiper {
+        width: 100%;
+        height: 60%;
+        margin-top: 10vw;
+      }
+      .swiper-slide{
+        width: 50%;
+      }
 }
