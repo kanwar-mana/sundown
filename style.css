@@ -403,7 +403,7 @@ nav{
 
 @media (max-width: 600px) {
     #page-1{
-        min-height: 100vh;
+        min-height: 70vh;
         width: 100vw;
         padding: 0vw 3vw;
     }
@@ -537,7 +537,7 @@ nav{
         color: white;
     }
      #center{
-        height: 35vh;
+        height: 30vh;
         width: 100%;
         /* background-color: orange; */
         display: flex;
@@ -583,13 +583,15 @@ nav{
         font-size: 17vw;
         line-height: 15vw;
     } */
-
+     #page-2{
+        min-height: 55vh;
+     }
     #gola{
         height: 30px;
         width: 30px;
     }
     #page2-bottom{
-        height: 70vh;
+        height: 55vh;
         display: flex;
         flex-direction: column;
 
@@ -619,6 +621,9 @@ nav{
         height: 50vw;
         top: 40%;
         left: 5%;
+    }
+    #page-3{
+        min-height: 60vh;
     }
     .element{
         height: 70px;
